@@ -47,4 +47,4 @@ mongoose.connect(mongoURI, {
 
 app.use("/user", userRouter);
 
-app.listen(5000, () => console.log("Server listening at port 5000"));
+app.listen(process.env.PORT || 5000 , () => console.log("Server listening at port 5000"));
