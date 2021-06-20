@@ -1,0 +1,26 @@
+<%- include ("header") %>
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Account Number</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Current Balance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% users.forEach(function(user){ %>
+                <tr>
+                    <th scope="row"><%=  user.accountNumber %></th>
+                    <td><%=  user.name %></td>
+                    <td><%=  user.email %></td>
+                    <td><%=  user.currentBalance %></td>
+                </tr>
+            <% }); %>
+
+        </tbody>
+    </table>
+
+    <%- include ("footer") %>

@@ -1,0 +1,63 @@
+body {
+    color: black;
+    padding: 0%;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+footer {
+    background-color: black;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 5px;
+    margin: 0%;
+}
+
+.home-image {
+    background-image: url("11205.jpg");
+    /* The image used */
+    background-color: #fff;
+    /* Used if the image is unavailable */
+    height: 550px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    /* width: 60%; */
+}
+.navbar{
+    text-align: right;
+}
+.logo{
+    width: 70px;
+
+}
+h2 {
+    /* font-family: 'Niconne'; */
+    font-family: 'Dosis', sans-serif;
+    color: rgb(2, 63, 63);
+    text-align: center;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.ccp{
+    display: inline-flex;
+    /* float: right; */
+    width: 90%;
+}
+.navbar,
+.nav-icons,
+.nav-items {
+    display: inline;
+    padding-left: 20px;
+}
