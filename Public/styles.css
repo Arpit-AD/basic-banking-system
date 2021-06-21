@@ -5,22 +5,24 @@ body {
     overflow-x: hidden;
 }
 
+
 /* */
 
 footer {
     background-color: rgb(15, 79, 104);
-    height: 30px;
+    /* height: 30px; */
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-top: 5px;
-    margin: 0%;
+    padding: 20px;
+    /* margin: 0%; */
 }
 
-.home-content{
-    background-color: rgba(0, 0, 0, 0.575);
+.home-content {
+    background-color: rgb(25, 62, 104);
     color: white;
-    margin-top: 70px;
-    padding: 10px;
+    margin-top: 10px;
+    padding: 20px 30px;
+    border-radius: 30px;
 }
 
 .home-image {
@@ -38,14 +40,17 @@ footer {
     /* Resize the background image to cover the entire container */
     /* width: 60%; */
 }
-.navbar{
+
+.navbar {
     text-align: right;
 }
-.logo{
+
+.logo {
     width: 70px;
     display: block;
     text-align: center;
 }
+
 h2 {
     /* font-family: 'Niconne'; */
     font-family: 'Dosis', sans-serif;
@@ -56,15 +61,16 @@ h2 {
     margin-top: 20px;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-.ccp{
+
+.ccp {
     display: inline-flex;
     /* float: right; */
     width: 75%;
-    margin-top: 90px;
+    margin-top: 20px;
 }
 
 .navbar,
@@ -73,36 +79,44 @@ a{
     display: inline;
     padding-left: 20px;
 }
-.abd,.row{
+
+.abd
+ {
     height: 620px;
     padding: 20px;
 }
 
-.failure,.success{
+.failure,
+.success {
     margin: 100px;
     width: 100px;
     height: auto;
 }
-
-.tryagain{
+.form-control,.buttn{
+    width: 85%;
+    margin: auto;
+}
+.tryagain {
     margin-top: 40px;
     display: block;
     text-align: center;
 }
 
-.failurepagemessage{
+.failurepagemessage {
     font-size: 30px;
 }
 
-.nvbr{
+.nvbr {
     font-size: 40px;
-    font-family: 'Abril Fatface', cursive; ;
+    font-family: 'Abril Fatface', cursive;
+    ;
     background-color: rgb(15, 79, 104);
     color: white;
     padding: 20px;
     border-radius: 50%;
 }
-span{
+
+span {
     background-color: white;
     /* font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     font-size: 20px;
@@ -110,37 +124,40 @@ span{
     padding: 30px;
     border-radius: 100%;
 }
-.card-content{
-    margin:10px;
+
+.card-content {
+    margin: 10px auto;
 }
-.abcd{
+
+.abcd {
     background-image: url("piggy-bank.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.ttbl{
-    background-color: rgba(255, 255, 255, 0.671);
+.ttbl {
+    background-color: rgba(255, 255, 255, 0.815);
 }
-.abed{
+
+.abed {
     background-image: url("bank.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 470px;
 }
 
-
-.card-transferinfocard{
+.card-transferinfocard {
     background-color: white;
     color: black;
     text-align: center;
 }
 
-.transferpage{
+.transferpage {
     display: inline;
 }
-.payment{
+
+.payment {
     display: inline;
     width: 300px;
     float: right;
