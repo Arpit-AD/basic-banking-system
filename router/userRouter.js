@@ -16,5 +16,5 @@ router.get("/getuserbyid/:id", getUserById);
 
 router.delete("/deleteuser/:id", deleteUser);
 
-router.post("/transfermoney", transferMoney);
+// router.post("/transfermoney", transferMoney);
 module.exports = router;
